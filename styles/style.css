@@ -226,15 +226,17 @@
 .button .button__text {
   /* position: relative; */
   /* z-index: 1; */
-  color: white;              
+  color: white;
   mix-blend-mode: difference;
 }
 
 .button_save svg {
-  color: white;  
+  color: white;
   mix-blend-mode: difference;
+  width: 30px;
+  height: 30px;
+  padding-top: 5px;
 }
-
 
 .card__icon-button {
   transition: border 0.3s ease;
@@ -293,12 +295,6 @@ dialog::backdrop {
 
 .width_limitation {
   width: 234px;
-}
-
-.button_save svg {
-  width: 30px;
-  height: 30px;
-  padding-top: 5px;
 }
 
 @media (width <= 375px) {
