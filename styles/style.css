@@ -243,6 +243,8 @@
   border: 2px solid transparent;
   padding: 0;
   height: 39px;
+  border: none;
+  background-color: transparent;
 }
 
 .card__icon-button:focus {
