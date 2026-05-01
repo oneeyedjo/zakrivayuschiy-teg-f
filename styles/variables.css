@@ -1,1 +1,21 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: "Inter-Variable", ROBOTO;
+  --accent-font: "PressStart2P", Pixelify Sans;
+  --heading-font-weight: 715;
+  --basic-font-weight: 410;
+  --background-color-text: #FFFFFF;
+  --background-image: repeating-linear-gradient(90deg, #d3d3d3 0px 2px, transparent 2px 4px),
+  repeating-linear-gradient(180deg, #d3d3d3 0px 2px, transparent 2px 4px),
+  linear-gradient(180deg, #e7e7e7 0%, #1a1a1a 100%);
+  --window-color: #000000;
+  --width: calc(100vw * (700 / 1440));;
+  --font-size-header-name: clamp(49px, calc(43.366197px + 1.502347vw), 65px);
+  --font-size-header-description: clamp(14px, calc(10.830986px + 0.84507vw), 23px);
+  --contour-color: #000000;
+  --animation-fill-color: #FF0000;
+  --sparks-color: #FF0000;
+  --core-color: #FFFFFF; 
+  --hover-animation-icon: #000000;
+  --active-contour-animation-icon: #000000;
+}
